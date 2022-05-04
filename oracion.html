@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDIDO DE ORACION</title>
+    <style type="text/css">
+      textarea {
+       width: 50%;
+       height: 20%;
+       background-color: rgb(255, 255, 255);
+       font-size: 1em;
+       font-family: 'Roboto', sans-serif;
+       border: 1px solid rgb(36, 36, 36);
+       border-radius: 4px;
+      }
+      </style>
+</head>
+
+  <body>
+<div class="contendor">
+  <header> </header>
+<section class="main">
+        <div class="imglogo">
+        <a href="index.html"><img src="images/logo1.png" alt="logoFCP"></a>
+        </div>
+            <h1>PEDIDO DE ORACIÓN</h1>
+        <div class="ref0">
+                <form method="POST" action="oraR.php">
+                        <input name="nombres" type="text" pattern="[a-zA-Z ]+" placeholder="escriba su nombre y apellido" required/></br>
+                        <textarea name="pedido" type="text" rows="10%" cols="50%"  placeholder="escriba su pedido de oración" required></textarea>
+                    <input type="submit" name="guardar_o" value="ENVIAR">
+                </form>
+       </div>
+
+
+  </section>
+</div>
+    </body>
+</html>
