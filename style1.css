@@ -14,6 +14,7 @@ body, html {
     font-size: 16px;
 }
 
+
 /**** INICIO ***/
 .contenedor{
     width: 100%;
@@ -50,15 +51,21 @@ color: white;
 font-size: 2rem;
 }
 
+.main h2{
+   color: rgb(255, 0, 0);
+   font-size: 1.5rem;
+   }
+
 .main h3{
     color: white;
     font-size: 1rem;
     }
 
-.main h2{
-   color: rgb(255, 0, 0);
-   font-size: 1.5rem;
-   }
+.main h4{
+    color: #00eef7;
+    font-size: 1.5rem;
+    font-style: italic; 
+    }
 
 .main .ref0 a {
     width: 50%;
@@ -169,7 +176,7 @@ form input[type=email], form input[type=number],form input[type="password"]{
       text-align: center;
     } 
 
-input[type=submit] {
+input[type=submit],form input[type=button] {
     width: 50%;
     background-color: #4CAF50;
     color: white;
