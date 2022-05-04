@@ -41,7 +41,7 @@ $num_dni = $_SESSION['num_dni'];
                 <a href="registroN.php">REGISTRAR KIDS</a>
                 <a href="vistaUadmin.php">VER LISTAS</a>
                 <a href="activoVERadmin.php">ACTIVAR SERVICIO</a>
-
+                <a href="orarVer.php">VER ORACIONES</a>
 
         </div>
 
