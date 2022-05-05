@@ -39,10 +39,10 @@ if(!isset($_POST["date"])){
 if (empty($aula)){?>
 
     <div class="ref0">
-        <a href="imprimirO.php?var1=<?=$dato;?>" target="_blank"> IMPRIMIR LISTA </a>
+    <a href="o_plantilla.php?var1=<?=$dato;?>"> DESCARGAR EXCEL </a>
     </div>
     <?php
-    $query = "SELECT * FROM oracion WHERE fecha = '$dato'";
+    $query = "SELECT nombres, pedido, fecha FROM oracion WHERE CAST(fecha AS DATE) = '$dato'";
     $query_run = mysqli_query($conexion, $query);
     $row = mysqli_num_rows($query_run);
     ?>    
